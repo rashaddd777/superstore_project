@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Data directories (excluding raw data for now)
+data/processed/
+data/external/
+
+# Large model outputs
+results/model_outputs/*.pkl
+
+# Temporary files
+*.log
+*.tmp
+
+# macOS-specific files
+.DS_Store
